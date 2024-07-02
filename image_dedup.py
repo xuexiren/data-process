@@ -27,7 +27,7 @@ def parse_opt():
                         help="输入的文件夹路径")
     parser.add_argument('--move_path', type=str, default='',
                         help="移动的文件夹路径")
-    parser.add_argument('--threshold', type=int, default=0.9,
+    parser.add_argument('--threshold', type=float, default=0.9,
                         help="比较的阈值")
     opt = parser.parse_args()
     return opt

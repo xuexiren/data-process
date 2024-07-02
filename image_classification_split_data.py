@@ -69,11 +69,11 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root_dir', type=str, default='',
                         help="原始图片文件夹路径")
-    parser.add_argument('--train_rate', type=int, default=0.7,
+    parser.add_argument('--train_rate', type=float, default=0.7,
                         help="训练集比例")
-    parser.add_argument('--val_rate', type=int, default=0.2,
+    parser.add_argument('--val_rate', type=float, default=0.2,
                         help="验证集比例")
-    parser.add_argument('--test_rate', type=int, default=0.1,
+    parser.add_argument('--test_rate', type=float, default=0.1,
                         help="测试集比例")
     parser.add_argument('--dataset_path', type=str, default="",
                         help="划分好的数据集的根路径")

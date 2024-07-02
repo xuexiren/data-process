@@ -65,11 +65,11 @@ def split_data(train_rate, val_rate, test_rate, image_path, label_path, out_path
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train_rate', type=str, default='',
+    parser.add_argument('--train_rate', type=float, default=0.7,
                         help="训练集的比例")
-    parser.add_argument('--val_rate', type=str, default='',
+    parser.add_argument('--val_rate', type=float, default=0.2,
                         help="验证集的比例")
-    parser.add_argument('--test_rate', type=str, default='',
+    parser.add_argument('--test_rate', type=float, default=0.1,
                         help="测试集的比例")
     parser.add_argument('--image_path', type=str, default='',
                         help="输入的图片文件夹路径")

@@ -12,10 +12,11 @@
 ## 3. 目标检测
 [xml格式转yolo格式](./xml_to_yolo.py) <br/>
 [yolo格式转coco格式](./yolo_to_coco.py)<br/>
+[coco格式转yolo格式](./coco_to_yolo.py)<br/>
 [生成负样本txt文件](./generate_negative_txt.py)<br/>
 [划分训练集、验证集和测试集](./object_detection_split_data.py)<br/>
 [判断文件夹中的txt文件是否为空](./check_empty_txt_files.py)<br/>
-[coco格式转yolo格式](./coco_to_yolo.py)<br/>
+
 
 ## 4. 图片分类
 [划分训练集、验证集和测试集](./image_classification_split_data.py)<br/>
